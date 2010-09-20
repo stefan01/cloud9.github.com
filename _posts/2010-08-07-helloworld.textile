@@ -1,0 +1,19 @@
+---
+layout: post
+title: Hello World!
+---
+
+h1. {{ page.title }}
+
+h1. hello world
+p. Hello woRLD.
+
+A *simple* paragraph with
+a line break, some _emphasis_ and a "link":http://redcloth.org
+
+
+akjsd;kjadjsajsd 
+
+* an item
+* another item
+* ajksd;kas;kj
