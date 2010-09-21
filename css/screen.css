@@ -4,6 +4,9 @@
 /*
 /*****************************************************************************/
 
+/* Fonts */
+@font-face{ font-family: "steinzeit-1"; }
+
 /* Global Reset */
 
 * {
@@ -88,7 +91,7 @@ ul.posts {
 }
 
 .yuin {
-  font-family: "steinzeit-1","steinzeit-2",fantasy;
+  font-family: "steinzeit-1";
   font-size: 1.5em;
   color: #000000;
 }
