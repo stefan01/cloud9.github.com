@@ -18,11 +18,10 @@ html, body {
 body {
   background-color: white;
   font-family: "gesta-1","gesta-2",sans-serif;
-/*
-  font-family: "gesta-1","gesta-2",sans-serif;
-*/  *font-size: small;
+  font-size: small;
   text-align: center;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
@@ -86,6 +85,11 @@ ul.posts {
   width: 40em;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
+}
+
+.yuin {
+  font-family: "bodedo-1","bodedo-2",sans-serif;
+  color: #FF4500;
 }
 
 .title {
