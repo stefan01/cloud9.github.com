@@ -5,9 +5,9 @@
 /*****************************************************************************/
 
 /* Fonts */
-@font-face{ font-family: "steinzeit-1"; }
 @font-face{ font-family: "gesta-1","gesta-2",sans-serif; }
 
+@font-face{ font-family: "cardo-1","cardo-2",serif; }
 
 /* Global Reset */
 
@@ -92,24 +92,31 @@ ul.posts {
   font-size: 110%;
   text-align: justify;
   width: 40em;
-  margin: 3em auto 2em auto;
+  margin: 2em auto 2em auto;
   line-height: 1.5em;
 }
 
 .yuin {
-  font-family: "steinzeit-1";
-  font-size: 1.5em;
+  font-family: "Courier New", monospace;
+  font-size: 1.2em;
+  font-weight: bold;
   color: #000000;
 }
 
+.yuin a {
+
+  color: #000000;
+}
+
+
 .title {
-  color: #a00;
+  color: #00a77e;
   font-weight: bold;
   margin-bottom: 2em;
 }
 
   .site .title a {
-    color: #a00;
+    color: #00a77e;
     text-decoration: none;
   }
 
