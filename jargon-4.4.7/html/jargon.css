@@ -2,11 +2,11 @@
 
 /* background image for all jargon pages */
 body {
-        background-color: #FFFFFF;
-        color: #333333;
-		font-family: "gesta-1","gesta-2",sans-serif;
-		width: 700px;
-
+  background-color: white;
+  font-family: "gesta-1","gesta-2",sans-serif;
+  font-size: 1em;
+  text-align: center;
+  width: 700px;
  }
 	
 /* default colors used by Mozilla, Galeon, and IE */
@@ -20,7 +20,7 @@ h3.title	{text-align: center;}
 .mediaobject	{text-align: center;}
 
 /* handles translation of <center> by tidy */
-h1, h2, h3	{font-family: Helvetica, Univers, sans-serif}
+h1, h2, h3	{}
 h1.centered	{text-align: center;}
 p.c2		{font-weight: bold}
 
