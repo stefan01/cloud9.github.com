@@ -1,32 +1,57 @@
-/* Jargon File stylesheet */
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
 
-/* background image for all jargon pages */
+/* Fonts */
+@font-face{ font-family: "steinzeit-1"; }
+@font-face{ font-family: "gesta-1","gesta-2",sans-serif; }
+
+
+/* Global Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
 body {
   background-color: white;
   font-family: "gesta-1","gesta-2",sans-serif;
   font-size: 1em;
-  text-align: center;
-  width: 700px;
- }
-	
-/* default colors used by Mozilla, Galeon, and IE */
-a:link    {color: #0000cf;}
-a:link:visited {color: #51188e;}
-a:link:active  {color: #ff0000;}
+}
 
-/* for the jargon file itself */
-div.caption	{text-align: center; font-weight: bold;}
-h3.title	{text-align: center;}
-.mediaobject	{text-align: center;}
 
-/* handles translation of <center> by tidy */
-h1, h2, h3	{}
-h1.centered	{text-align: center;}
-p.c2		{font-weight: bold}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
 
-/* table */
-table{
-	
-	border: none;
-	
+h1 {
+  margin-bottom: 1em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: #00a;
+}
+
+a:hover {
+  color: black;
+}
+
+a:visited {
+  color: #a0a;
+}
+
+table {
+  font-size: inherit;
+  font: 100%;
 }
