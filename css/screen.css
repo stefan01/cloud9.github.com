@@ -155,7 +155,7 @@ img {
 
 #menuBg {
 	background-color: #fff;
-	opacity: 0.8;
+	opacity: 0.9;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -191,15 +191,21 @@ img {
   }
 
 #sideBar {
-	background-color: #F2F2F2;
 	position: fixed;
 	top: 60px;
-	padding: 5px 10px 5px 10px;
-	width: 200px;
+	width: 235px;
 	margin-left: 602px;
 }
 
-#sideBar #title {
+#sideBar .section{
+	background-color: #F2F2F2;
+	display: inline-block;
+	padding: 5px 10px 5px 10px;
+	width: 100%;
+	margin-bottom: 8px;
+}
+
+#sideBar .title {
 	border-bottom: 1px dashed #ffffff;
 	margin-bottom: 8px;
 }
@@ -211,6 +217,11 @@ img {
 	padding: 2px 6px;
 	margin-bottom: 5px;
 	float: left;
+	display: inline-block;
+}
+
+#sideBar .contactType {
+	width: 45px;
 	display: inline-block;
 }
 
