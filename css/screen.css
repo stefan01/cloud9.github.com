@@ -145,7 +145,7 @@ img {
 /*****************************************************************************/
 
 .site {
-/*  font-size: 1em;*/
+  font-size: 1em;
   text-align: justify;
   width: 800px;
   margin: 0 auto 0px;
@@ -195,9 +195,11 @@ img {
 	top: 60px;
 	width: 235px;
 	margin-left: 602px;
+	font-size: 1.2em;
 }
 
 #sideBar .section{
+	font-size: 0.8em;
 	background-color: #F2F2F2;
 	display: inline-block;
 	padding: 5px 10px 5px 10px;
