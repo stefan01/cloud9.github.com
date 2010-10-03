@@ -20,6 +20,9 @@
 
 @img_alpha70: url('/white_alpha70.png');
 
+@main_width: 570px;
+@main_padding: 12px;
+
 /*****************************************************************************/
 /*
 /* Common
@@ -87,20 +90,20 @@ ul, ol {
 /*****************************************************************************/
 
 #index {
-	width: 570px;
-  padding: 12px;
+	width: @main_width;
+  padding: @main_padding;
   margin-top: 60px;
 	background-image: @img_alpha70;
 	
 	img {
-		max-width: 530px;
+		max-width: 566px;
 	}
 }
 
 
 .category {
-  width: 570px;
-  padding: 12px 12px 1px 12px;
+  width: @main_width;
+  padding: @main_padding;
   margin-top: 60px;
 }
 
