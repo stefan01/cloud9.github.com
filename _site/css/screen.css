@@ -32,7 +32,7 @@ ul, ol { list-style-position: inside; }
 #index img { max-width: 566px; }
 .category {
   width: 570px;
-  padding: 12px 12px 1px 12px;
+  padding: 12px;
   margin-top: 60px;
 }
 #tagPage { background-color: rgba(128, 128, 128, 0.5); }
