@@ -4,12 +4,19 @@
 /*
 /*****************************************************************************/
 
-@tag_color: #808080;
-@process_color: #52DB8F;
-@context_color: #42DBF0;
-@ideas_color: #EDF55B;
-@manifesto_color: #FF623F;
-@homepage_color: #F7F7F7;
+@tag_color: 			rgb(128,128,128);
+@process_color: 	rgb(66, 219, 240);
+@context_color: 	rgb(237, 245, 91);
+@ideas_color: 		rgb(82, 219, 143);
+@manifesto_color: rgb(255, 98, 63);
+@homepage_color: 	rgb(245, 245, 245);
+
+@tag_color_alpha: 			rgba(128,128,128,0.5);
+@process_color_alpha: 	rgba(66, 219, 240,0.5);
+@context_color_alpha: 	rgba(237, 245, 91,0.5);
+@ideas_color_alpha: 		rgba(82, 219, 143,0.5);
+@manifesto_color_alpha: rgba(255, 98, 63,0.5);
+@homepage_color_alpha: 	rgba(245,245,245,0.5);
 
 @img_alpha70: url('/white_alpha70.png');
 
@@ -98,23 +105,24 @@ ul, ol {
 }
 
 #tagPage {
-  background-color: @tag_color;
+  background-color: @tag_color_alpha;
 }
 
 #process {
-  background-color: @process_color;
+  background-color: @process_color_alpha;
+	
 }
 
 #context {
-  background-color: @context_color;
+  background-color: @context_color_alpha;
 }
 
 #ideas {
-  background-color: @ideas_color;
+  background-color: @ideas_color_alpha;
 }
 
 #manifesto {
-  background-color: @manifesto_color;
+  background-color: @manifesto_color_alpha;
 
 	.item {
 	  background-color: #FFFFFF;
