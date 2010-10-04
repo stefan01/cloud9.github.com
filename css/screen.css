@@ -47,6 +47,7 @@ ul, ol { list-style-position: inside; }
   list-style-type: none;
   display: inline-block;
 }
+#guideline { background-color: rgba(125, 123, 186, 0.5); }
 #process_page .process_link a { color: #42dbf0; }
 #menu .process_link a:hover { color: #42dbf0; }
 #ideas_page .ideas_link a { color: #52db8f; }
@@ -55,6 +56,8 @@ ul, ol { list-style-position: inside; }
 #menu .context_link a:hover { color: #edf55b; }
 #manifesto_page .manifesto_link a { color: #ff623f; }
 #menu .manifesto_link a:hover { color: #ff623f; }
+#guideline_page .guideline_link a { color: #7d7bba; }
+#menu .guideline_link a:hover { color: #7d7bba; }
 .post {
   background-color: #ffffff;
   padding: 12px;

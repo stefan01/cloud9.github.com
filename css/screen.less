@@ -9,6 +9,7 @@
 @context_color: 	rgb(237, 245, 91);
 @ideas_color: 		rgb(82, 219, 143);
 @manifesto_color: rgb(255, 98, 63);
+@guideline_color: rgb(125, 123, 186);
 @homepage_color: 	rgb(249, 249, 249);
 
 @tag_color_alpha: 			rgba(128,128,128,0.5);
@@ -16,6 +17,7 @@
 @context_color_alpha: 	rgba(237, 245, 91,0.5);
 @ideas_color_alpha: 		rgba(82, 219, 143,0.5);
 @manifesto_color_alpha: rgba(255, 98, 63,0.5);
+@guideline_color_alpha: rgba(125, 123, 186,0.5);
 
 @img_alpha70: url('/white_alpha70.png');
 
@@ -135,6 +137,11 @@ ul, ol {
 	}
 }
 
+#guideline {
+	background-color: @guideline_color_alpha;
+
+}
+
 
 #process_page .process_link a, #menu .process_link a:hover {
 	color: @process_color;
@@ -147,6 +154,9 @@ ul, ol {
 }
 #manifesto_page .manifesto_link a, #menu .manifesto_link a:hover {
 	color: @manifesto_color;
+}
+#guideline_page .guideline_link a, #menu .guideline_link a:hover {
+	color: @guideline_color;
 }
 
 
