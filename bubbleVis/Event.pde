@@ -83,7 +83,7 @@ void groupingTypesOfDialogues(){
     String type = dialogue.event.eventType;
     
     int index = (Integer)hmEventTypes.get(type);
-    float variant = 0.003;
+    float variant = 0.001;
     float deltaX = (medianX[index] - dialogue.x)*variant*dialogue.offsetX + (dialogue.event.centerX*dialogue.offsetX-dialogue.x-dialogueWidth)*variant*0.1;
     float deltaY = (medianY[index] - dialogue.y)*variant*dialogue.offsetY; //+ (dialogue.event.centerY+300-dialogue.y)*variant*dialogue.offsetY*0.01;
     

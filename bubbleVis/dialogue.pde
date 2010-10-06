@@ -92,7 +92,7 @@ class Dialogue{
       isHookLeft = false;
       
     x = event.centerX + random(-120,120) - dialogueWidth/2;
-    y = random( 100,height-300);
+    y = random( 100,height-340);
   }
 
   void draw(){

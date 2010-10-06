@@ -294,7 +294,7 @@ public void groupingTypesOfDialogues(){
     String type = dialogue.event.eventType;
     
     int index = (Integer)hmEventTypes.get(type);
-    float variant = 0.003f;
+    float variant = 0.001f;
     float deltaX = (medianX[index] - dialogue.x)*variant*dialogue.offsetX + (dialogue.event.centerX*dialogue.offsetX-dialogue.x-dialogueWidth)*variant*0.1f;
     float deltaY = (medianY[index] - dialogue.y)*variant*dialogue.offsetY; //+ (dialogue.event.centerY+300-dialogue.y)*variant*dialogue.offsetY*0.01;
     
@@ -619,7 +619,7 @@ class Dialogue{
       isHookLeft = false;
       
     x = event.centerX + random(-120,120) - dialogueWidth/2;
-    y = random( 100,height-300);
+    y = random( 100,height-340);
   }
 
   public void draw(){
