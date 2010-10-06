@@ -99,7 +99,8 @@ public void setup(){
 
 public void draw(){
   
-  background(255,255,250);
+//  background(255,255,250);
+  background(255);
   
   for(int j=0; j<dialogues.size(); j++){
     
