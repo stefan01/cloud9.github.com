@@ -27,9 +27,16 @@ ul, ol { list-style-position: inside; }
   width: 570px;
   padding: 12px;
   margin-top: 60px;
-  background-image: url('/white_alpha70.png');
+  background-color: #f0f0f0;
 }
 #index img { max-width: 566px; }
+#index .description {
+  background-color: #c5c5c5;
+  padding: 0px 0px 0px 12px;
+  margin-bottom: 0px;
+  margin-top: 8px;
+  display: inline-block;
+}
 .category {
   width: 570px;
   padding: 12px 12px 1px 12px;
