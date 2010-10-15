@@ -64,12 +64,19 @@ ul, ol { list-style-position: inside; }
   margin-bottom: 12px;
   color: #6f726f;
 }
-.post .titleBar { border-bottom: 1px dashed #f7f7f7; }
+.post .titleBar {
+  font-weight: bold;
+  border-bottom: 1px dashed #f7f7f7;
+}
 .post .titleBar .date {
+  font-weight: normal;
   float: right;
   color: #d9d9d9;
 }
-.post .content { margin: 4px 4px 14px 4px; }
+.post .content {
+  font-weight: normal;
+  margin: 4px 4px 14px 4px;
+}
 .post .tags .tag {
   background-color: #cecece;
   color: #ffffff;
@@ -81,7 +88,7 @@ ul, ol { list-style-position: inside; }
 .post img { max-width: 538px; }
 .site {
   font-size: 1em;
-  text-align: justify;
+  text-align: left;
   width: 800px;
   margin: 0 auto 30px;
   line-height: 1.5em;
