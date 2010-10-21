@@ -24,12 +24,12 @@ table {
 }
 ul, ol { list-style-position: inside; }
 #index {
-  width: 570px;
+  width: 590px;
   padding: 12px;
   margin-top: 60px;
   background-color: #ffffff;
 }
-#index img { max-width: 566px; }
+#index img { max-width: 590px; }
 #index .description {
   background-color: #c5c5c5;
   padding: 6px 6px 6px 8px;
@@ -38,7 +38,7 @@ ul, ol { list-style-position: inside; }
   display: inline-block;
 }
 .category {
-  width: 570px;
+  width: 590px;
   padding: 12px 12px 1px 12px;
   margin-top: 60px;
 }
@@ -46,6 +46,7 @@ ul, ol { list-style-position: inside; }
 #process { background-color: rgba(66, 219, 240, 0.5); }
 #context { background-color: rgba(237, 245, 91, 0.5); }
 #ideas { background-color: rgba(82, 219, 143, 0.5); }
+#collection { background-color: rgba(184, 215, 194, 0.5); }
 #manifesto { background-color: rgba(255, 98, 63, 0.5); }
 #manifesto .item {
   background-color: #ffffff;
@@ -61,6 +62,8 @@ ul, ol { list-style-position: inside; }
 #menu .ideas_link a:hover { color: #52db8f; }
 #context_page .context_link a { color: #edf55b; }
 #menu .context_link a:hover { color: #edf55b; }
+#collection_page .collection_link a { color: #b8d7c2; }
+#menu .collection_link a:hover { color: #b8d7c2; }
 #manifesto_page .manifesto_link a { color: #ff623f; }
 #menu .manifesto_link a:hover { color: #ff623f; }
 #guideline_page .guideline_link a { color: #7d7bba; }
@@ -92,7 +95,7 @@ ul, ol { list-style-position: inside; }
   float: left;
   display: inline-block;
 }
-.post img { max-width: 538px; }
+.post img { max-width: 558px; }
 .site {
   font-size: 1em;
   text-align: left;
@@ -132,7 +135,7 @@ ul, ol { list-style-position: inside; }
   position: fixed;
   top: 60px;
   width: 235px;
-  margin-left: 602px;
+  margin-left: 624px;
   font-size: 1.2em;
 }
 #sideBar .section {

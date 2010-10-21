@@ -4,24 +4,26 @@
 /*
 /*****************************************************************************/
 
-@tag_color: 			rgb(128,128,128);
-@process_color: 	rgb(66, 219, 240);
-@context_color: 	rgb(237, 245, 91);
-@ideas_color: 		rgb(82, 219, 143);
-@manifesto_color: rgb(255, 98, 63);
-@guideline_color: rgb(125, 123, 186);
-@homepage_color: 	rgb(249, 249, 249);
+@tag_color: 						rgb(128,128,128);
+@process_color: 				rgb( 66,219,240);
+@context_color: 				rgb(237,245, 91);
+@ideas_color: 					rgb( 82,219,143);
+@collection_color:			rgb(184,215,194);
+@manifesto_color: 			rgb(255, 98, 63);
+@guideline_color: 			rgb(125,123,186);
+@homepage_color: 				rgb(249,249,249);
 
-@tag_color_alpha: 			rgba(128,128,128,0.5);
-@process_color_alpha: 	rgba(66, 219, 240,0.5);
-@context_color_alpha: 	rgba(237, 245, 91,0.5);
-@ideas_color_alpha: 		rgba(82, 219, 143,0.5);
-@manifesto_color_alpha: rgba(255, 98, 63,0.5);
-@guideline_color_alpha: rgba(125, 123, 186,0.5);
+@tag_color_alpha: 			 rgba(128,128,128,0.5);
+@process_color_alpha: 	 rgba(66, 219, 240,0.5);
+@context_color_alpha: 	 rgba(237, 245, 91,0.5);
+@ideas_color_alpha: 		 rgba(82, 219, 143,0.5);
+@collection_color_alpha: rgba(184,215,194,0.5);
+@manifesto_color_alpha:  rgba(255, 98, 63,0.5);
+@guideline_color_alpha:  rgba(125, 123, 186,0.5);
 
 @img_alpha70: url('/white_alpha70.png');
 
-@main_width: 570px;
+@main_width: 590px;
 @main_padding: 12px;
 
 /*****************************************************************************/
@@ -99,7 +101,7 @@ ul, ol {
 	background-color: #ffffff;
 	
 	img {
-		max-width: 566px;
+		max-width: @main_width;// - @main_padding*2;
 	}
 	
 	.description{
@@ -136,6 +138,10 @@ ul, ol {
   background-color: @ideas_color_alpha;
 }
 
+#collection {
+  background-color: @collection_color_alpha;
+}
+
 #manifesto {
   background-color: @manifesto_color_alpha;
 
@@ -163,6 +169,10 @@ ul, ol {
 #context_page .context_link a, #menu .context_link a:hover {
 	color: @context_color;
 }
+#collection_page .collection_link a, #menu .collection_link a:hover {
+	color: @collection_color;
+}
+
 #manifesto_page .manifesto_link a, #menu .manifesto_link a:hover {
 	color: @manifesto_color;
 }
@@ -206,8 +216,8 @@ ul, ol {
 		display: inline-block;
 	}
 	
-	img {
-		max-width: 538px;
+	img{
+		max-width: @main_width - 32;
 	}
 }
 
@@ -263,7 +273,7 @@ ul, ol {
 	position: fixed;
 	top: 60px;
 	width: 235px;
-	margin-left: 602px;
+	margin-left: @main_width + 34px;
 	font-size: 1.2em;
 	
 	.section {
