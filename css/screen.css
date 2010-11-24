@@ -195,3 +195,10 @@ ul, ol { list-style-position: inside; }
   clear: both;
   visibility: hidden;
 }
+#dsq-content { margin: 20px 0 0; }
+.posts #dsq-content #dsq-global-toolbar { display: none; }
+.posts #dsq-content .dsq-options { display: none; }
+.comment_count {
+  padding: 5px 6px;
+  display: block;
+}
