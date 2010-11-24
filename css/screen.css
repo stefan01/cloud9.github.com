@@ -37,13 +37,14 @@ ul, ol { list-style-position: inside; }
   margin-top: 8px;
   display: inline-block;
 }
-.category {
+.category { margin-top: 60px; }
+.post_container {
   width: 590px;
   padding: 12px 12px 1px 12px;
-  margin-top: 60px;
+  margin-bottom: 20px;
 }
+#process .post_container { background-color: rgba(66, 219, 240, 0.5); }
 #tagPage { background-color: rgba(128, 128, 128, 0.5); }
-#process { background-color: rgba(66, 219, 240, 0.5); }
 #context { background-color: rgba(237, 245, 91, 0.5); }
 #ideas { background-color: rgba(82, 219, 143, 0.5); }
 #collection { background-color: rgba(184, 215, 194, 0.5); }
@@ -195,10 +196,10 @@ ul, ol { list-style-position: inside; }
   clear: both;
   visibility: hidden;
 }
-#dsq-content { margin: 20px 0 0; }
-.posts #dsq-content #dsq-global-toolbar { display: none; }
-.posts #dsq-content .dsq-options { display: none; }
 .comment_count {
-  padding: 5px 6px;
+  margin: 10px 0 12px;
+  padding: 5px 12px;
   display: block;
+  background-color: #ffffff;
+  height: 15px;
 }

@@ -116,17 +116,30 @@ ul, ol {
 
 
 .category {
-  width: @main_width;
-  padding: @main_padding @main_padding 1px @main_padding;
+/*  width: @main_width;
+  padding: @main_padding @main_padding 1px @main_padding;*/
   margin-top: 60px;
 }
+
+.post_container {
+/*  background-color: #fff;*/
+  width: @main_width;
+  padding: @main_padding @main_padding 1px @main_padding;
+  //background-color: @process_color_alpha;
+  margin-bottom: 20px;
+}
+
+#process .post_container {
+  background-color: @process_color_alpha;	
+}
+
 
 #tagPage {
   background-color: @tag_color_alpha;
 }
 
 #process {
-  background-color: @process_color_alpha;
+  //background-color: @process_color_alpha;
 	
 }
 
@@ -378,17 +391,34 @@ ul, ol {
   visibility: hidden;
 }
 
-#dsq-content {
-  margin: 20px 0 0;
-}
-.posts #dsq-content #dsq-global-toolbar {
+
+/*****************************************************************************/
+/*
+/* Override Disqus Styling
+/*
+/*****************************************************************************/
+/*.posts #dsq-content #dsq-global-toolbar {
   display: none;
 }
 .posts #dsq-content .dsq-options {
   display: none;
 }
+.posts #dsq-content #dsq-comments-title {
+  display: none;
+}
+.posts #dsq-content #dsq-pagination {
+  display: none;
+}
+
+#disqus_thread{
+  background-color: #fff; 
+}
+*/
 
 .comment_count {
-  padding: 5px 6px;
+  margin: 10px 0 12px;
+  padding: 5px 12px;
   display: block;
+  background-color: #fff;
+  height: 15px;
 }
