@@ -122,10 +122,8 @@ ul, ol {
 }
 
 .post_container {
-/*  background-color: #fff;*/
   width: @main_width;
   padding: @main_padding @main_padding 1px @main_padding;
-  //background-color: @process_color_alpha;
   margin-bottom: 20px;
 }
 
@@ -133,31 +131,45 @@ ul, ol {
   background-color: @process_color_alpha;	
 }
 
+#context .post_container {
+  background-color: @context_color_alpha;	
+}
+
+#ideas .post_container {
+  background-color: @ideas_color_alpha;	
+}
+
+#collection .post_container {
+  background-color: @collection_color_alpha;	
+}
+
+#tagPage .post_container {
+  background-color: @tag_color_alpha;	
+}
 
 #tagPage {
-  background-color: @tag_color_alpha;
+//  background-color: @tag_color_alpha;
 }
 
 #process {
-  //background-color: @process_color_alpha;
-	
+  //background-color: @process_color_alpha;	
 }
 
 #context {
-  background-color: @context_color_alpha;
+//  background-color: @context_color_alpha;
 }
 
 #ideas {
-  background-color: @ideas_color_alpha;
+//  background-color: @ideas_color_alpha;
 }
 
 #collection {
-  background-color: @collection_color_alpha;
+//  background-color: @collection_color_alpha;
 }
 
-#manifesto {
+#manifesto .post_container{
   background-color: @manifesto_color_alpha;
-
+  
 	.item {
 	  background-color: #FFFFFF;
 		padding: 2px 4px 2px 8px;

@@ -44,12 +44,12 @@ ul, ol { list-style-position: inside; }
   margin-bottom: 20px;
 }
 #process .post_container { background-color: rgba(66, 219, 240, 0.5); }
-#tagPage { background-color: rgba(128, 128, 128, 0.5); }
-#context { background-color: rgba(237, 245, 91, 0.5); }
-#ideas { background-color: rgba(82, 219, 143, 0.5); }
-#collection { background-color: rgba(184, 215, 194, 0.5); }
-#manifesto { background-color: rgba(255, 98, 63, 0.5); }
-#manifesto .item {
+#context .post_container { background-color: rgba(237, 245, 91, 0.5); }
+#ideas .post_container { background-color: rgba(82, 219, 143, 0.5); }
+#collection .post_container { background-color: rgba(184, 215, 194, 0.5); }
+#tagPage .post_container { background-color: rgba(128, 128, 128, 0.5); }
+#manifesto .post_container { background-color: rgba(255, 98, 63, 0.5); }
+#manifesto .post_container .item {
   background-color: #ffffff;
   padding: 2px 4px 2px 8px;
   margin-bottom: 12px;
