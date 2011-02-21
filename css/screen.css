@@ -40,7 +40,7 @@ ul, ol { list-style-position: inside; }
 .category { margin-top: 60px; }
 .post_container {
   width: 590px;
-  padding: 12px 12px 1px 12px;
+  padding: 5px 12px 1px 12px;
   margin-bottom: 20px;
 }
 #process .post_container { background-color: rgba(255, 255, 255, 0.5); }
