@@ -95,7 +95,10 @@ ul, ol { list-style-position: inside; }
   float: left;
   display: inline-block;
 }
-.post img { max-width: 558px; }
+.post img {
+  max-width: 558px;
+  border: 1px solid #eeeeee;
+}
 .site {
   font-size: 1em;
   text-align: left;
