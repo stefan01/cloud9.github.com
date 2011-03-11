@@ -38,10 +38,14 @@ ul, ol { list-style-position: inside; }
   margin-top: 8px;
   display: inline-block;
 }
-.category { margin-top: 60px; }
+.category {
+  top: 40px;
+  position: absolute;
+  left: 140px;
+}
 .post_container {
   width: 590px;
-  padding: 5px 12px 1px 12px;
+  padding: 0 12px 1px 12px;
   margin-bottom: 20px;
 }
 #process .post_container { background-color: rgba(255, 255, 255, 0.5); }
@@ -72,13 +76,15 @@ ul, ol { list-style-position: inside; }
 #menu .guideline_link a:hover { color: #7d7bba; }
 .post {
   background-color: #ffffff;
+  font-size: 15px;
+  line-height: 20px;
   margin-bottom: 12px;
   color: #6f726f;
   font-family: Georgia, serif;
 }
 .post .titleBar {
   font-weight: bold;
-  border-bottom: 1px dashed #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
 }
 .post .titleBar .date {
   font-weight: normal;
@@ -90,6 +96,7 @@ ul, ol { list-style-position: inside; }
   margin: 4px 4px 14px 4px;
 }
 .post .tags .tag {
+  font-family: 'Inconsolata', arial, serif;
   background-color: #f5f5f5;
   color: #ffffff;
   margin-right: 5px;
@@ -104,8 +111,8 @@ ul, ol { list-style-position: inside; }
 .site {
   font-size: 1em;
   text-align: left;
-  width: 800px;
-  margin: 0 auto 30px;
+  width: 1000px;
+  margin: 0 auto 0px;
   line-height: 1.5em;
   position: relative;
 }
@@ -120,7 +127,7 @@ ul, ol { list-style-position: inside; }
   display: block;
 }
 #menu {
-  padding-top: 30px;
+  padding-top: 40px;
   padding-left: 6px;
   font-size: 1.1em;
   position: fixed;
@@ -128,37 +135,33 @@ ul, ol { list-style-position: inside; }
   height: 30px;
   width: 100%;
 }
-#menu .homeTitle {
-  margin-right: 30px;
-  margin-left: 4px;
-}
+#menu .homeTitle { margin-right: 30px; }
 #menu .title a {
   text-decoration: none;
   margin-right: 10px;
 }
 #sideBar {
   position: fixed;
-  top: 60px;
+  top: 40px;
   width: 235px;
-  margin-left: 624px;
-  font-size: 1.2em;
+  margin-left: 760px;
+  font-size: 1.1em;
 }
 #sideBar .section {
-  font-size: 0.8em;
   display: inline-block;
-  padding: 5px 10px 5px 10px;
   width: 100%;
   margin-bottom: 8px;
 }
 #sideBar .title {
-  border-bottom: 1px dashed #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
   margin-bottom: 8px;
 }
 #sideBar .tag {
+  font-family: 'Inconsolata', arial, serif;
   background-color: #f5f5f5;
   color: #ffffff;
   margin-right: 5px;
-  padding: 1px 5px;
+  padding: 1px 6px;
   margin-bottom: 5px;
   float: left;
   display: inline-block;

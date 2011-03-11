@@ -35,6 +35,8 @@
 @main_width: 590px;
 @main_padding: 12px;
 
+@global_padding_top: 40px;
+
 /*****************************************************************************/
 /*
 /* Common
@@ -130,12 +132,15 @@ ul, ol {
 .category {
 /*  width: @main_width;
   padding: @main_padding @main_padding 1px @main_padding;*/
-  margin-top: 60px;
+/*  margin-top: 20px;*/
+	top: @global_padding_top;
+	position: absolute;
+	left:140px;
 }
 
 .post_container {
   width: @main_width;
-	padding: 5px 12px 1px 12px;
+	padding: 0 12px 1px 12px;
 /*  padding: @main_padding @main_padding 1px @main_padding;*/
   margin-bottom: 20px;
 /*	border-bottom: 1px dashed #e0e0e0;*/
@@ -226,14 +231,15 @@ ul, ol {
 
 .post {
   background-color: #ffffff;
-/*  padding: 12px;*/
+	font-size: 15px;
+	line-height: 20px;
   margin-bottom: 12px;
   color: #6F726F;
   font-family: Georgia, serif;
 
 	.titleBar {
 	  font-weight: bold;
-	 	border-bottom: 1px dashed #e0e0e0;
+	 	border-bottom: 1px solid #e0e0e0;
 	
 		.date {
 			font-weight: normal;
@@ -248,6 +254,7 @@ ul, ol {
 	}
 	
 	.tags .tag {
+		font-family: 'Inconsolata', arial, serif;
 		background-color: #f5f5f5;
 		color: #ffffff;
 		margin-right: 5px;
@@ -272,8 +279,8 @@ ul, ol {
 .site {
   font-size: 1em;
   text-align: left;
-  width: 800px;
-  margin: 0 auto 30px;
+  width: 1000px;
+  margin: 0 auto 0px;
   line-height: 1.5em;
 	position: relative;
 }
@@ -290,7 +297,7 @@ ul, ol {
 }
 
 #menu {
-	padding-top: 30px;
+	padding-top: @global_padding_top;
   padding-left: 6px;
   font-size: 1.1em;
 	position: fixed;
@@ -300,7 +307,6 @@ ul, ol {
 	
 	.homeTitle{
 		margin-right: 30px;
-		margin-left: 4px;
 	}
 	
 	.title a {
@@ -312,30 +318,30 @@ ul, ol {
 
 #sideBar {
 	position: fixed;
-	top: 60px;
+	top: 40px;
 	width: 235px;
-	margin-left: @main_width + 34px;
-	font-size: 1.2em;
+/*	margin-left: @main_width + 34px;*/
+	margin-left: 760px;
+	font-size: 1.1em;
 	
 	.section {
-		font-size: 0.8em;
-/*		background-color: #F2F2F2;*/
 		display: inline-block;
-		padding: 5px 10px 5px 10px;
+/*		padding: 5px 10px 5px 10px;*/
 		width: 100%;
 		margin-bottom: 8px;
 	}
 	
 	.title {
-		border-bottom: 1px dashed #e0e0e0;
+		border-bottom: 1px solid #e0e0e0;
 		margin-bottom: 8px;
 	}
 	
 	.tag {
+		font-family: 'Inconsolata', arial, serif;
 	  background-color: #f5f5f5;
 		color: #ffffff;
 		margin-right: 5px;
-		padding: 1px 5px;
+		padding: 1px 6px;
 		margin-bottom: 5px;
 		float: left;
 		display: inline-block;
